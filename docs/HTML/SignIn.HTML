@@ -1,0 +1,46 @@
+<!doctype html>
+<!--2 sections (head and body) in an html-->
+<html>
+<head>
+    <title>Sign In</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="MySite.css" />
+</head>
+
+<body>
+    <div id="bodyContent" class="container">
+        <header>
+            <h1 style="text-align:center"> Error Analysis </h1>
+        </header>
+
+        <main id="mainContent" class="extraHorizontalPadding">
+
+            <p style="text-align:right;font-size: 2rem;">
+                <a class="w3-bar-item w3-button" href="/howto/default.asp" title="Menu">Sign In </a>
+                <a class="w3-bar-item w3-button" href="/howto/default.asp" title="Menu">| Calculations </a>
+                <a class="w3-bar-item w3-button" href="/howto/default.asp" title="Menu">| Results </a>
+                <a class="w3-bar-item w3-button" href="/howto/default.asp" title="Menu">| Home </a>
+
+            </p>
+
+            <h2 style="text-align:center"> Sign In</h2>
+               
+            <form style="text-align:center" action="/action_page.php">
+                <label for="fname">Username:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Password:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Cancel">
+                <br><br>
+            </form>
+            
+            
+
+           
+
+        </main>
+    </div>
+</body>
+</html>

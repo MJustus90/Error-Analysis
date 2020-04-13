@@ -1,0 +1,33 @@
+body{
+    background-color:yellowgreen
+}
+
+#bodyContent {
+    margin-top: 1rem;
+    background-color: azure;   
+}
+
+#mainContent > p:last-child {
+    padding-bottom: 1rem;   
+}
+
+.extraHorizontalPadding {
+    padding: 0 10px;
+}
+
+h1 {
+    padding-top: 2rem;
+    border-bottom: solid 2px blue;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 3.75rem;
+}
+
+h2, h3{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+
+}
+
